@@ -1,0 +1,51 @@
+Part 1:
+
+1. https://swapi.dev/api/people/4
+
+2. https://swapi.dev/api/planets/2/
+
+3. https://swapi.dev/api/starships/10/
+
+4. https://swapi.dev/api/species/2
+   https://swapi.dev/api/people/2
+
+5. https://swapi.dev/api/films/1/
+   https://swapi.dev/api/films/2/
+   https://swapi.dev/api/films/3/
+   https://swapi.dev/api/films/4/
+   https://swapi.dev/api/films/5/
+   https://swapi.dev/api/films/6/
+
+6. https://swapi.dev/api/starships/?search=millennium
+
+Part 2:
+
+1. We need to send a body that contains an id, the text and the date.
+
+2. A GET request will return a body
+
+3. https://practiceapi.devmountain.com/api/posts/555
+
+4. 200, 409
+
+5. https://practiceapi.devmountain.com/api/posts/
+    {
+        "id": 858,
+        "text": "Keegan",
+        "date": "13 Apr 2022"
+    }
+
+6. https://practiceapi.devmountain.com/api/posts/?id=858
+   {
+       "text": "orange"
+   }
+
+7. https://practiceapi.devmountain.com/api/posts/filter/?text=blue
+
+8. application/json
+   utf-8
+
+9. Request was missing req.query.id or req.body.text
+
+10. It returns an array with all the entries.
+
